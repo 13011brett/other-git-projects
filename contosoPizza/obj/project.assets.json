@@ -224,19 +224,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\scarl\\.nuget\\packages\\": {}
+    "C:\\Users\\CrazySquirrel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scarl\\OneDrive\\repos\\13011\\other-git-projects\\contosoPizza\\contosoPizza.csproj",
+      "projectUniqueName": "C:\\Users\\CrazySquirrel\\Documents\\repos\\other-git-projects\\contosoPizza\\contosoPizza.csproj",
       "projectName": "contosoPizza",
-      "projectPath": "C:\\Users\\scarl\\OneDrive\\repos\\13011\\other-git-projects\\contosoPizza\\contosoPizza.csproj",
-      "packagesPath": "C:\\Users\\scarl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scarl\\OneDrive\\repos\\13011\\other-git-projects\\contosoPizza\\obj\\",
+      "projectPath": "C:\\Users\\CrazySquirrel\\Documents\\repos\\other-git-projects\\contosoPizza\\contosoPizza.csproj",
+      "packagesPath": "C:\\Users\\CrazySquirrel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CrazySquirrel\\Documents\\repos\\other-git-projects\\contosoPizza\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\scarl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CrazySquirrel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -278,6 +283,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -286,7 +309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
