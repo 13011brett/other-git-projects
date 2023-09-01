@@ -1,27 +1,79 @@
+import { useState } from 'react';
 import '../reset.css';
 import '../App.css';
 
 function App() {
+  const [todos, setTodos] = useState([
+    {
+      id: 1,
+      title: 'Master a language',
+      isComplete: false,
+    },
+    {
+      id: 2,
+      title: 'Become the best ever',
+      isComplete: false,
+    },
+    {
+      id: 3,
+      title: 'Learn how to program',
+      isComplete: true,
+    },
+  ]);
+
+
+  const [todoInput, setTodoInput] = useState('');
+  const [idForTodo, setIdForTodo] = useState(4);
+
+  function addTodo(event) {
+    event.preventDefault();
+
+    if(todoInput.trim().length === 0){
+      return;
+    }
+
+    setTodos([...todos, 
+      {
+        id: idForTodo,
+        title: todoInput,
+        isComplete: false,
+    }])
+
+    setTodoInput('');
+    setIdForTodo(prevIdForTodo => prevIdForTodo + 1);
+  }
+
+  function deleteTodo(id){
+    setTodos([...todos].filter(todo => todo.id !== id));
+  }
+
+  function handleInput(event) {
+    setTodoInput(event.target.value);
+  }
+
   return (
     <div className="todo-app-container">
       <div className="todo-app">
         <h2>Todo App</h2>
-        <form action="#">
+        <form action="#" onSubmit={addTodo}>
           <input
             type="text"
+            value ={todoInput}
+            onChange={handleInput}
             className="todo-input"
             placeholder="What do you need to do?"
           />
         </form>
 
         <ul className="todo-list">
-          <li className="todo-item-container">
+          {todos.map((todo, index) => (
+          <li key={todo.id} className="todo-item-container">
             <div className="todo-item">
               <input type="checkbox" />
-              <span className="todo-item-label">Finish React Series</span>
+              <span className="todo-item-label">{todo.title}</span>
               {/* <input type="text" className="todo-item-input" value="Finish React Series" /> */}
             </div>
-            <button className="x-button">
+            <button onClick={() => deleteTodo(todo.id)} className="x-button">
               <svg
                 className="x-button-icon"
                 fill="none"
@@ -37,52 +89,7 @@ function App() {
               </svg>
             </button>
           </li>
-          <li className="todo-item-container">
-            <div className="todo-item">
-              <input type="checkbox" />
-              <span className="todo-item-label line-through">
-                Go to Grocery
-              </span>
-              {/* <input type="text" className="todo-item-input" value="Go to Grocery" /> */}
-            </div>
-            <button className="x-button">
-              <svg
-                className="x-button-icon"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </li>
-          <li className="todo-item-container">
-            <div className="todo-item">
-              <input type="checkbox" />
-              <span className="todo-item-label">Do other thing</span>
-              {/* <input type="text" className="todo-item-input" value="Do other thing /> */}
-            </div>
-            <button className="x-button">
-              <svg
-                className="x-button-icon"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </li>
+        ))}
         </ul>
 
         <div className="check-all-container">
