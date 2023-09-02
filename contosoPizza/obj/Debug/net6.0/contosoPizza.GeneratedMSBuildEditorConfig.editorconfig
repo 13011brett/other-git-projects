@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = contosoPizza
 build_property.RootNamespace = contosoPizza
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = c:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza
+=======
+build_property.ProjectDir = C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza
+>>>>>>> 401082e2fc9bf46b539031921b10a0ef8315464c
 build_property._RazorSourceGeneratorDebug = 

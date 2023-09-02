@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\bin\Debug\net6.0\appsettings.json
 C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\bin\Debug\net6.0\contosoPizza.exe
@@ -30,3 +31,37 @@ C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\obj\Debug\ne
 C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.pdb
 C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.genruntimeconfig.cache
 C:\Users\scarl\OneDrive\repos\13011\other-git-projects\contosoPizza\obj\Debug\net6.0\ref\contosoPizza.dll
+=======
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\appsettings.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\contosoPizza.exe
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\contosoPizza.deps.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\contosoPizza.runtimeconfig.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\contosoPizza.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\contosoPizza.pdb
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.csproj.AssemblyReference.cache
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.AssemblyInfoInputs.cache
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.AssemblyInfo.cs
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.csproj.CoreCompileInputs.cache
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets\msbuild.contosoPizza.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets\msbuild.build.contosoPizza.props
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.contosoPizza.props
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.contosoPizza.props
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\scopedcss\bundle\contosoPizza.styles.css
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.csproj.CopyComplete
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\refint\contosoPizza.dll
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.pdb
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\contosoPizza.genruntimeconfig.cache
+C:\Users\CrazySquirrel\Documents\repos\other-git-projects\contosoPizza\obj\Debug\net6.0\ref\contosoPizza.dll
+>>>>>>> 401082e2fc9bf46b539031921b10a0ef8315464c
