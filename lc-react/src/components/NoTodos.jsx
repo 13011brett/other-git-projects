@@ -6,7 +6,7 @@ export default function NoTodos() {
       <div className="no-todos-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="324.67004"
+          width="320.67004"
           height="600.58314"
           viewBox="0 0 524.67004 627.58314"
         >
