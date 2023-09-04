@@ -103,7 +103,8 @@ function App() {
             placeholder="What do you need to do?"
           />
         </form>
-
+        { todos.length > 0 ? 
+        <>
         <ul className="todo-list">
           {todos.map((todo, index) => (
           <li key={todo.id} className="todo-item-container">
@@ -152,6 +153,7 @@ function App() {
           </li>
         ))}
         </ul>
+        
 
         <div className="check-all-container">
           <div>
@@ -173,6 +175,14 @@ function App() {
             <button className="button">Clear completed</button>
           </div>
         </div>
+        </>
+     : 
+      <div className="no-todos-container">
+        <p> Add some Todos</p>
+      </div>
+
+
+      }
       </div>
     </div>
   );
