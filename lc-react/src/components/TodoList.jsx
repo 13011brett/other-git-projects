@@ -1,4 +1,5 @@
 import React from "react";
+import TodoItemsRemaining from "./TodoItemsRemaining";
 
 function TodoList(props) {
   return (
@@ -65,7 +66,7 @@ function TodoList(props) {
           <div className="button">Check All</div>
         </div>
 
-        <span>{props.todos.length} items remaining</span>
+        <TodoItemsRemaining remaining={props.remaining} />
       </div>
 
       <div className="other-buttons-container">
