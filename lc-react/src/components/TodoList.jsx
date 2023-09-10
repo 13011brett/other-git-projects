@@ -1,5 +1,6 @@
 import React from "react";
 import TodoItemsRemaining from "./TodoItemsRemaining";
+import TodoClearCompleted from "./TodoClearCompleted";
 
 function TodoList(props) {
   return (
@@ -78,7 +79,7 @@ function TodoList(props) {
           <button className="button filter-button">Completed</button>
         </div>
         <div>
-          <button className="button">Clear completed</button>
+          <TodoClearCompleted clearCompleted={props.clearCompleted} />
         </div>
       </div>
     </>
