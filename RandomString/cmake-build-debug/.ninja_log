@@ -1,0 +1,13 @@
+# ninja log v5
+2	145	7161761065284561	build.ninja	7dd131563ac4a0d
+3	563	7161759872179991	CMakeFiles/untitled.dir/main.cpp.obj	fe1fedb95a0a357e
+1441	1529	7161759881812681	untitled.exe	17dfcfb1f09b89ca
+10	1441	7161759880962485	CMakeFiles/untitled.dir/randomWords.cpp.obj	4768f72ae9104357
+1	129	7161761065284561	build.ninja	7dd131563ac4a0d
+1	529	7161761071085889	CMakeFiles/RandomString.dir/main.cpp.obj	a017125068b4b90e
+5	1340	7161761079188321	CMakeFiles/RandomString.dir/randomWords.cpp.obj	6285b6bf553af093
+1340	1431	7161761080098523	RandomString.exe	d76edfa5cf75f5d4
+0	10	0	clean	f1c0810b4f0350db
+2	491	7161762019365922	CMakeFiles/RandomString.dir/main.cpp.obj	a017125068b4b90e
+7	1388	7161762028322979	CMakeFiles/RandomString.dir/randomWords.cpp.obj	6285b6bf553af093
+1388	1481	7161762029233185	RandomString.exe	d76edfa5cf75f5d4
