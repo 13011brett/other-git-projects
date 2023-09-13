@@ -5,8 +5,19 @@
 #ifndef UNTITLED_RANDOMWORDS_H
 #define UNTITLED_RANDOMWORDS_H
 
-int genRandom(int);
-void sayAndRandom(std::string &input);
+
+
+class RandomStrings{
+private:
+    std::string aInput;
+    static int genRandom(int);
+public:
+    explicit RandomStrings(std::string input);
+
+    void setInput(std::string input);
+
+    void sayAndRandom();
+};
 
 
 
